@@ -1,0 +1,16 @@
+.hometop {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+/* need to put p in a container in order to conrol binary text spill-out */ 
+
+p {
+    text-align: left;
+    font-family: serif;
+    a {
+        font-weight: bold;
+        font-family: serif
+    }
+}
