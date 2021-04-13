@@ -1,43 +1,48 @@
-.hometop {
-  text-align: center;
+.homeBody {
+  background-color: #45526c;
+}
+
+.pageTitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
+  color: #F8A488;
+  text-align: center;
 }
 
-p {
+/* need to put p in a container in order to conrol binary text spill-out */
+.homeCrypto {
+  width: 100%;
+}
+
+.cryptograph {
   text-align: left;
   font-family: serif;
-}
-p a {
   font-weight: bold;
-  font-family: serif;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #F8F5F1;
+  opacity: 75%;
 }
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #45526c;
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #F8A488;
   color: black;
 }
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #F8A488;
+  color: #45526c;
 }
 .topnav .icon {
   display: none;
@@ -50,7 +55,7 @@ body {
 
   .topnav a.icon {
     float: right;
-    display: block;
+    display: inline-block;
   }
 }
 @media screen and (max-width: 600px) {
@@ -66,7 +71,7 @@ body {
 
   .topnav.responsive a {
     float: none;
-    display: block;
+    display: inline-block;
     text-align: left;
   }
 }
