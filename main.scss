@@ -1,29 +1,25 @@
 @import "Partials/home";
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #F8F5F1;
+    opacity: 75%;
     a {
         float: left;
         display: block;
-        color: #f2f2f2;
+        color: #45526c;
         text-align: left;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 30px;
     } 
     a:hover {
-    background-color: #ddd;
+    background-color: #F8A488;
     color: black;
     }
     a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #F8A488;
+    color: #45526c;
     }
     .icon {
     display: none;
@@ -36,6 +32,7 @@ body {
     .topnav a.icon {
       float: right;
       display: block;
+      width: 100%
     }
   }
   
@@ -45,10 +42,12 @@ body {
       position: absolute;
       right: 0;
       top: 0;
+      width: 100%;
     }
     .topnav.responsive a {
       float: none;
       display: block;
       text-align: left;
+      width: 100%;
     }
   }
