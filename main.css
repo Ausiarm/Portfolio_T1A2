@@ -55,7 +55,7 @@
 
   .topnav a.icon {
     float: right;
-    display: inline-block;
+    display: block;
   }
 }
 @media screen and (max-width: 600px) {
@@ -71,7 +71,7 @@
 
   .topnav.responsive a {
     float: none;
-    display: inline-block;
+    display: block;
     text-align: left;
   }
 }
