@@ -1,19 +1,9 @@
 .homeBody {
     background-color: #45526c;
 }
-
-.pageTitle {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    color: #F8A488;
-    .h1 {
-        text-align: center;
-    }
-}
-
-/* need to put p in a container in order to conrol binary text spill-out */ 
 .homeCrypto {
-    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .cryptograph {
     text-align: left;
@@ -21,4 +11,5 @@
     font-weight: bold;
     font-family: 'IBM Plex Mono', monospace;
     color: #F8F5F1;
+    width: 75%;
 }
