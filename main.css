@@ -20,6 +20,80 @@
   background-color: #45526c;
 }
 
+.blogWriting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
+}
+
+.blogPost1 {
+  border-left: 5px double #F8F5F1;
+  margin: auto 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.blogPost1 #ire {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.blogPost2 {
+  border-left: 5px double #F8F5F1;
+  margin: auto 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.blogPost2 #moab {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.blogPost3 {
+  border-left: 5px double #F8F5F1;
+  margin: auto 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.blogPost3 #shire {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.blogPost4 {
+  border-left: 5px double #F8F5F1;
+  margin: auto 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.blogPost4 #snow {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.blogPost5 {
+  border-left: 5px double #F8F5F1;
+  margin: auto 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.blogPost5 #fall {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
 .pageTitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
