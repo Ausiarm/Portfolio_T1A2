@@ -24,7 +24,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  flex-grow: 1;
   font-family: "IBM Plex Mono", monospace;
   color: #F8F5F1;
 }
@@ -92,6 +91,20 @@
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+.pastBlogs h3 {
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
+  border-bottom: 5px double #F8F5F1;
+}
+.pastBlogs .blogs {
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
+  border-left: 5px double #F8F5F1;
+}
+.pastBlogs .blogs li:before {
+  content: "15 April 2021 - ";
 }
 
 .pageTitle {
