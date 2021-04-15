@@ -1,2 +1,107 @@
+@mixin centralFlex {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column-reverse;
+}
+.aboutBody {
+    background-color: #45526c;
+}
 
+.whoAmI{
+    display: flex;
+    justify-content: space-around;
+    border-left: 5px double #F8F5F1;
+    @include marPad();
+    .iText {
+        @include fontStyle();
+        display: flex;
+        flex-direction: column;
+    }
+    .iImage {
+        @include marPad();
+        img {
+            height: 500px;
+            width: 400px;
+            border-radius: 50%;
+        }
+    }
+} 
 
+.skills {
+    border-left: 5px double #F8F5F1;
+    @include marPad();
+    @include fontStyle();
+    .skillContain {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+            .skillDescription{
+                margin: 10px 30px 0px 30px;
+            }
+            .skillImages {
+                color: #F8A488;
+                flex-direction: row;
+                display: flex;
+                .firstIcon {
+                    flex: 1;
+                    margin: 20px 20px 0px 20px;
+                }
+                .secondIcon {
+                    flex: 1;
+                    margin: 20px 20px 0px 20px;
+                }
+            }
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .whoAmI{
+      @include centralFlex(); 
+    .sectionHeading {
+        display: flex;
+        justify-content: center;
+        align-content: center;  
+    }  
+    .iImage {
+        @include marPad();
+        img {
+            height: 250px;
+            width: 200px;
+            border-radius: 50%;
+        }
+    }
+  }
+  .skills {
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column-reverse;
+    .sectionHeading {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .skillContain {
+        flex-direction: column;
+        .skillImages {
+            display: flex;
+            justify-content: center;
+            align-content: center; 
+        }
+        .skillDescription {
+            margin: 0px 0px;
+            }
+        .firstIcon {
+            align-content: center;
+            align-items: center;
+            margin: 0px 0px;
+            float: right;
+        }
+        .secondIcon {
+            align-content: center;
+            align-items: center;
+            margin: 0px 0px;
+        }
+    }
+  }
+}

@@ -107,6 +107,125 @@
   content: "15 April 2021 - ";
 }
 
+@media screen and (max-width: 600px) {
+  .blogPost1, .blogPost2, .blogPost3, .blogPost4, .blogPost5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.aboutBody {
+  background-color: #45526c;
+}
+
+.whoAmI {
+  display: flex;
+  justify-content: space-around;
+  border-left: 5px double #F8F5F1;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.whoAmI .iText {
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
+  display: flex;
+  flex-direction: column;
+}
+.whoAmI .iImage {
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.whoAmI .iImage img {
+  height: 500px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.skills {
+  border-left: 5px double #F8F5F1;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
+}
+.skills .skillContain {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.skills .skillContain .skillDescription {
+  margin: 10px 30px 0px 30px;
+}
+.skills .skillContain .skillImages {
+  color: #F8A488;
+  flex-direction: row;
+  display: flex;
+}
+.skills .skillContain .skillImages .firstIcon {
+  flex: 1;
+  margin: 20px 20px 0px 20px;
+}
+.skills .skillContain .skillImages .secondIcon {
+  flex: 1;
+  margin: 20px 20px 0px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .whoAmI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .whoAmI .sectionHeading {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .whoAmI .iImage {
+    margin: 10px 10px;
+    padding: 10px 10px;
+  }
+  .whoAmI .iImage img {
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .skills {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .skills .sectionHeading {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .skills .skillContain {
+    flex-direction: column;
+  }
+  .skills .skillContain .skillImages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .skills .skillContain .skillDescription {
+    margin: 0px 0px;
+  }
+  .skills .skillContain .firstIcon {
+    align-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    float: right;
+  }
+  .skills .skillContain .secondIcon {
+    align-content: center;
+    align-items: center;
+    margin: 0px 0px;
+  }
+}
 .pageTitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
