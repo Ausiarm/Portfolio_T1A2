@@ -26,6 +26,12 @@
     font-family: 'IBM Plex Mono', monospace;
     color: #F8F5F1;
 }
+@mixin centerPix {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
 
 
 .blogBody {
@@ -91,3 +97,8 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .blogPost1, .blogPost2, .blogPost3, .blogPost4, .blogPost5 {
+        @include centerPix();
+    }
+}

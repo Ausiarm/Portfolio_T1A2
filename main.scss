@@ -1,4 +1,4 @@
-@import "Partials/home", "Partials/blog";
+@import "Partials/home", "Partials/blog", "Partials/about";
 @mixin titleStyle {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 60px;
@@ -49,7 +49,7 @@
           text-align: left;
           width: 75%;
       }
-  }
+  } 
 }
   
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
