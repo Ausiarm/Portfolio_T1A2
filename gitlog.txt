@@ -1,0 +1,152 @@
+commit d028fe750d053180bf3d59a8dc40bde17f44f27f
+Merge: ec38aa3 091fb67
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Fri Apr 16 13:07:31 2021 +1000
+
+    Merge pull request #8 from Ausiarm/contact
+    
+    completed contact page sin both html and css aspects. Preparing to cl…
+
+commit 091fb674fc3e19563ce5e5f3041651fbfbe9579b
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Fri Apr 16 13:05:52 2021 +1000
+
+    completed contact page sin both html and css aspects. Preparing to clean up code as well as adding comments throught to explain reasoning behind certain decisions.
+
+commit ec38aa3e782e662b4932d30d26d44cc9080b8f0e
+Merge: f3cd31d 1b93171
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Thu Apr 15 16:10:00 2021 +1000
+
+    Merge pull request #7 from Ausiarm/about
+    
+    started and finished the about page of the portfolio including elemen…
+
+commit 1b93171851788e2ce0c523d367a4654d6a2175ff
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Thu Apr 15 16:09:22 2021 +1000
+
+    started and finished the about page of the portfolio including elements that need to be iterated on further as they are placeholders and aren't meant to be final products
+
+commit f3cd31d46d0125bb8829fd8b19b7c65cc7dc36f3
+Merge: 0bd31ea 0f088bf
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Thu Apr 15 10:12:39 2021 +1000
+
+    Merge pull request #6 from Ausiarm/blog
+    
+    finished the blog page as well as added more structure into the parti…
+
+commit 0f088bf2c24ccd0512331f7d954b88ef16356b63
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Thu Apr 15 10:12:10 2021 +1000
+
+    finished the blog page as well as added more structure into the partials pages to include mixins more
+
+commit 0bd31ea26c82c3a05d4aa9eeff35424ce1b305e2
+Merge: eb0fe91 918f570
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Wed Apr 14 15:50:41 2021 +1000
+
+    Merge pull request #5 from Ausiarm/blog
+    
+    worked on blog page to bring up to speed with home in terms of stylin…
+
+commit 918f5703cbe24989a199de131c56fdc2aafb8402
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Wed Apr 14 15:48:37 2021 +1000
+
+    worked on blog page to bring up to speed with home in terms of styling as well as layout of html elements. All that needs to be done on blog is to add the previous list of blogs and will be ready to move on to about and contact pages
+    
+    git status
+    q
+
+commit eb0fe916989b036be61b736b3c63a415c071e6b3
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Wed Apr 14 12:13:17 2021 +1000
+
+    forgot to switch to branch for blog
+
+commit 4e576b75cdaaffb9f64e3ef95b974eac2722345e
+Merge: 4d6380c 8b84c6f
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Wed Apr 14 12:07:00 2021 +1000
+
+    Merge pull request #4 from Ausiarm/home
+    
+    added image files to the blog html and structure but not working on t…
+
+commit 8b84c6f708164919f467fd16b9465a5aa8ade681
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Wed Apr 14 12:06:20 2021 +1000
+
+    added image files to the blog html and structure but not working on the right branch so need to push changes and then switch to correct branch for work
+
+commit 4d6380cf3b8b3c57462e0dfe3e5e48b5dac24e17
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Wed Apr 14 11:31:59 2021 +1000
+
+    work mostly done on home page, restructured Main.scss and partials to make more sense in relation to what work is done where.
+
+commit de1f13e21a8bfd30d33959a11f2d6e92c50f4332
+Merge: 5f8a9ef d2bb3b6
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Wed Apr 14 08:48:13 2021 +1000
+
+    Merge pull request #3 from Ausiarm/home
+    
+    minor changes to syntax and spelling errors
+
+commit d2bb3b607df4eeee46a202d1ec1135082e34291c
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Wed Apr 14 08:47:39 2021 +1000
+
+    minor changes to syntax and spelling errors
+
+commit 5f8a9efd1a3d150212f5fdce9f7a4bf7ac69dbae
+Merge: b0b3e4b b6e9086
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Tue Apr 13 19:54:40 2021 +1000
+
+    Merge pull request #2 from Ausiarm/home
+    
+    broke navigation bar while making style changes --
+
+commit b6e908691c133d43c21149285baebace93954ea7
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Tue Apr 13 19:52:58 2021 +1000
+
+    broke navigation bar while making style changes -- have left in current state in order to return tomorrow and understand what is wrong
+
+commit b0b3e4b694f52e4e10bd858d0cebdb2fdfdb1a1d
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Tue Apr 13 16:03:38 2021 +1000
+
+    moved code for navbars from head tag to body tag on all html pages
+
+commit 2b24f341560b9dd4d5f0017faef0c444d1a3eacb
+Merge: ca973f7 2279e0d
+Author: Armstrong Ashton-Lewis <Ausiarm@gmail.com>
+Date:   Fri Apr 9 17:10:30 2021 +1000
+
+    Merge pull request #1 from Ausiarm/home
+    
+    Restructered project file set as well as began developing homepage ht…
+
+commit 2279e0d0f3af1f0fbf28d92bf932df19a6bc78c9
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Fri Apr 9 17:08:59 2021 +1000
+
+    Restructered project file set as well as began developing homepage html and created a responsive navbar for use on mobile, tablet, and desktop.
+
+commit ca973f7b8974698f27d7af95a52f947a713a5092
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Thu Apr 8 13:30:25 2021 +1000
+
+    Created skeleton of project including all different page types and sorted into folders to prepare for work in coming days.
+
+commit 6d5ec0442cee49e3ab2755244aa01c3f4302f7b9
+Author: Armstrong <ausiarm@gmail.com>
+Date:   Thu Apr 8 13:09:54 2021 +1000
+
+    first commit
