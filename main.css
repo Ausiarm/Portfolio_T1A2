@@ -217,20 +217,83 @@
   .skills .skillContain .firstIcon {
     align-content: center;
     align-items: center;
-    margin: 0px 0px;
-    float: right;
   }
   .skills .skillContain .secondIcon {
     align-content: center;
     align-items: center;
-    margin: 0px 0px;
   }
 }
+.contactBody {
+  background-color: #45526c;
+}
+
+.nameEmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
+  border-bottom: 5px double #F8F5F1;
+}
+
+.contactMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "IBM Plex Mono", monospace;
+  color: #F8F5F1;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  border-bottom: 5px double #F8F5F1;
+}
+
+.socialMedia {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedIn img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+.github img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+.twitter img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+.instagram img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
 .pageTitle {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
   color: #F8A488;
   text-align: center;
+  border-bottom: 5px double #F8F5F1;
 }
 .pageTitle .h1 {
   text-align: center;

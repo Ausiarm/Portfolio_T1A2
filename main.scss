@@ -1,4 +1,4 @@
-@import "Partials/home", "Partials/blog", "Partials/about";
+@import "Partials/home", "Partials/blog", "Partials/about", "Partials/contact";
 @mixin titleStyle {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 60px;
@@ -10,7 +10,8 @@
 }
 
 .pageTitle {
-  @include titleStyle()
+  @include titleStyle ();
+  @include borderBottom ();
   }
 .topnav {
     overflow: hidden;

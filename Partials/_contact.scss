@@ -1,0 +1,62 @@
+@mixin logoStyle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+@mixin flexRow {
+    display: flex;
+    flex-flow: row wrap;
+}
+@mixin borderBottom {
+    border-bottom: 5px double #F8F5F1;
+}
+.contactBody {
+    background-color: #45526c;
+}
+
+.nameEmail {
+    @include centerPix ();
+    @include fontStyle ();
+    @include borderBottom ();
+}
+
+.contactMessage {
+    @include centerPix ();
+    @include fontStyle ();
+    @include marPad ();
+    @include borderBottom ();
+}
+
+.socialMedia {
+    @include flexRow (); 
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedIn {
+    img {
+        @include logoStyle ();
+        @include marPad ();
+    }
+}
+
+.github {
+    img {
+        @include logoStyle ();
+        @include marPad ();
+    }
+}
+
+.twitter {
+    img {
+        @include logoStyle ();
+        @include marPad ();
+    }
+}
+
+.instagram {
+    img {
+        @include logoStyle ();
+        @include marPad ();
+    }
+}
